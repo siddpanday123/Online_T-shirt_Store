@@ -1,0 +1,40 @@
+.searchDiv{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    padding-left: 25px;
+}
+input{
+    height: 40px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    outline: none;
+}
+.product_fliter{
+    display: none;
+}
+@media only screen and (max-width:400px) {
+    .product_fliter{
+        display: block;
+    }
+    .searchDiv{
+        display: flex;
+        width: 300px;
+        display: flex;
+    }
+    .icon_product{
+        display: flex;
+    }
+}
+@media only screen and (max-width:300px){
+    .searchDiv{
+        display: flex;
+        width: 200px;
+        display: flex;
+    }
+    .icon_product{
+        display: flex;
+    }
+}

@@ -1,0 +1,15 @@
+.check_box{
+    display: flex;
+    align-items: center;
+    height: 30px;
+}
+.filter_Part{
+    padding: 0% 5%;
+    height: 450px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.lable{
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}

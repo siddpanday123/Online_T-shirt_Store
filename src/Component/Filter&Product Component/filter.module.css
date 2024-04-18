@@ -1,0 +1,22 @@
+.check_box{
+    display: flex;
+    align-items: center;
+    height: 30px;
+}
+.filter_Part{
+    padding: 2% 5%;
+    height: 420px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    background-color: rgb(138, 198, 228);
+    border-radius: 6px;
+}
+.lable{
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+@media only screen and (max-width:400px){
+    .filter_Part{
+        display: none;
+    }
+}
